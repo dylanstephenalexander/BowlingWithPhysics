@@ -5,8 +5,8 @@ public class Player : MonoBehaviour{
 [SerializeField] private float speed;
 private Rigidbody rb;
     void Start(){
-        inputManager.OnMove.AddListener(MovePlayer);
         rb = GetComponent<Rigidbody>();
+        inputManager.OnMove.AddListener(MovePlayer);
     }
     private void MovePlayer(Vector2 direction){
         Vector3 moveDirection = new(direction.x, 0f, direction.y);
