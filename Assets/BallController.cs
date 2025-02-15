@@ -26,4 +26,8 @@ public class BallController : MonoBehaviour
         ballRB.AddForce(launchIndicator.forward * force, ForceMode.Impulse);
         launchIndicator.gameObject.SetActive(false);
     }
+        void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log($"Ball collided with: {collision.gameObject.name}");
+    }
 }
