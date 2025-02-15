@@ -1086,7 +1086,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!135 &1234987385
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1278,7 +1278,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7141821212279365577, guid: 3e81ddd7680cd482abe8ee436d1cb551, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141821212279365577, guid: 3e81ddd7680cd482abe8ee436d1cb551, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1790,21 +1794,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right Gutter
       objectReference: {fileID: 0}
+    - target: {fileID: 1973689259508605134, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2038226178094572546, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2038226178094572546, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574898887049767811, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2038226178094572546, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1897,7 +1909,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7141821212279365577, guid: 3e81ddd7680cd482abe8ee436d1cb551, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141821212279365577, guid: 3e81ddd7680cd482abe8ee436d1cb551, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1916,13 +1932,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left Gutter
       objectReference: {fileID: 0}
+    - target: {fileID: 1973689259508605134, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2038226178094572546, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2038226178094572546, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.69
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574898887049767811, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1930,11 +1954,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7702912202854339611, guid: 576b03d7da06c4d2b8bd9f4228bc1c1a, type: 3}
       propertyPath: m_LocalPosition.z
